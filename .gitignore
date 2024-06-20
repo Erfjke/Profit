@@ -1,0 +1,56 @@
+# Общие исключения
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Виртуальная среда Python
+/env/
+*.pyc
+__pycache__/
+
+# Настройки IDE
+.idea/
+
+# Файлы операционной системы
+.DS_Store
+
+# Файлы конфигурации окружения
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Логи и отладочные файлы
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Исключения для фронтенда
+# dependencies
+/frontend/node_modules
+/frontend/.pnp
+/frontend/.pnp.js
+
+# testing
+/frontend/coverage
+
+# production
+/frontend/build
+
+# Исключения для инструментов
+.vscode/
+*.code-workspace
+
+
+
+# Исключения для временных и резервных файлов
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Исключения для macOS
+._*
+.Spotlight-V100
+.Trashes
+/env/
