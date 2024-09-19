@@ -8,7 +8,10 @@ __pycache__/
 
 # Настройки IDE
 .idea/
-
+.idea
+env
+.gitignore
+f
 # Файлы операционной системы
 .DS_Store
 
@@ -54,3 +57,4 @@ yarn-error.log*
 .Spotlight-V100
 .Trashes
 /env/
+/frontend/node_modules/
