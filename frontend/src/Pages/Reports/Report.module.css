@@ -1,0 +1,53 @@
+.reportPage {
+    padding: 20px;
+    background-color: #FAFBFC; /* Light grey background */
+  }
+  
+  .reportPage h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form label {
+    margin-bottom: 10px;
+  }
+  
+  .form select {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .form button {
+    padding: 10px 20px;
+    background-color: #00CCA6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .form button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .reportLink {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .form select, .form input {
+    display: block;
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }

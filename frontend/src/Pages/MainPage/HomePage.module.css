@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box; 
+    margin: 0; 
+    padding: 0; 
+}
+
+
+
+.homepage {
+    box-sizing: border-box; /* Учитывает padding и border в общей ширине элементов */
+    margin: 0; /* Убирает маржины у всех элементов */
+    padding: 0; /* Убирает паддинги у всех элементов */
+    font-family: Arial, sans-serif;
+    height: 90vh; /* Устанавливает минимальную высоту на 100% видимой области */
+    display: flex;
+    flex-direction: column;
+    background: url('../../images/Background.png') no-repeat center center;
+    
+    background-size: cover; /* Фон растягивается, сохраняя пропорции */
+    position: relative;
+}
+
+.header {
+    color: white;
+    padding: 20px;
+    flex: 1; /* Занимает оставшееся пространство */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative; /* Для позиционирования overlay */
+}
+
+.topNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    width: 100%; /* Ширина 100% */
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2; /* Размещает nav поверх overlay */
+}
+
+.logoContainer {
+    display: flex;
+    align-items: center;
+}
+
+.logoImage {
+    width: 56px;
+    height: 56px;
+    margin-right: 10px;
+}
+
+.logoText {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.authLinks{
+    margin-left: 10px;
+    padding: 10px 20px;
+    background-color: #00CCA6;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.heroSection {
+    margin-top: 100px;
+    text-align: center
+    /* z-index: 2; Размещает hero-section поверх overlay */
+}
+
+.heroSection h1 {
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.heroSection p {
+    margin: 5px 0;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.tryBtn {
+    padding: 12px 25px;
+    font-size: 20px;
+    background-color: #00CCA6;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 44px;
+    text-decoration: none;
+    margin-top: 30px;
+}
+
+.infoSection {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Центрирует карточки по вертикали */
+    padding: 40px 20px; /* Увеличивает отступы */
+   
+   
+}
+
+.infoCard {
+    background: white;
+    box-shadow: 0 13px 19px rgba(0, 0, 0, 0.07);
+    padding: 35px 40px;
+    
+    margin: 0 30px; /* Увеличивает расстояние между карточками */
+    margin-bottom: -25px;
+    text-align: left;
+    border-radius: 8px;
+    max-width: 328px;
+}
+
+.cardImage {
+    width: 66px;
+    height: 66px;
+    margin-bottom: 20px;
+}
+
+.infoCardP {
+    font-size: 24px;
+    font-weight: 700;
+}
+.grayLine {
+    width: 100%;
+    
+margin-top: -22px;
+border:25px solid;
+border-color: #b7b7b7;
+}
+.cardsContainer {
+    position: relative; 
+    z-index: 2; 
+}
+
+.infoSection {
+    position: relative; 
+    z-index: 3; 
+}
+
+.grayLine {
+    width: 100%;
+    height: 10px;
+    background-color: #E0E0E0;
+    position: absolute;
+    bottom: -20px;
+    z-index: 1; /* Слой под карточками */
+}

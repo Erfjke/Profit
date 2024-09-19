@@ -1,0 +1,132 @@
+.analytics {
+    padding: 20px;
+    background-color: #FAFBFC; /* Light grey background */
+  }
+  
+  .analyticsHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .analyticsHeader h2 {
+    margin: 0;
+  }
+  
+  .analyticsSummary {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .analyticsSummary div {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+  }
+  
+  .chartContainer {
+    margin-bottom: 40px;
+  }
+  
+  .chartContainer h3 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .chart {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .tabs button {
+    padding: 10px 20px;
+    background-color: #FFFFFF;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .tabs button:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .tabs .active {
+    border: 2px solid #000; /* Черная граница для активного таба */
+  }
+  
+  .form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .form h2 {
+    margin-top: 0;
+  }
+  
+  .form select,
+  .form input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .form button {
+    padding: 10px 20px;
+    background-color: #00CCA6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+ 
+  .analytics {
+    padding: 20px;
+    background-color: #FAFBFC; /* Light grey background */
+  }
+  
+  .analyticsHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .analyticsHeader h2 {
+    margin: 0;
+  }
+  
+  .chartContainer {
+    margin-bottom: 40px;
+  }
+  
+  .chartContainer h3 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .chart {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
